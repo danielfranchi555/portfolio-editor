@@ -16,6 +16,9 @@ footer_input.addEventListener("blur", () => {
   if (footer_input.value != "") return;
   footer_input.classList.remove("focus");
 });
+function irAGmail() {
+  window.location.href = "https://mail.google.com";
+}
 
 function closeMenu() {
   navbar.classList.remove("open");
