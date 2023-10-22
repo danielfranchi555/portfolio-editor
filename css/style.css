@@ -1291,7 +1291,20 @@ header .circle {
     height: 45px;
   }
 }
-
+.logo{
+  width: 50px;
+}
+.logos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logos-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 @media (max-width: 850px) {
   .grid-2 {
     grid-template-columns: 1fr !important;
@@ -1540,6 +1553,7 @@ header .circle {
     margin: 1rem 0;
     padding: 0;
   }
+  
 
   .footer-input-wrap {
     max-width: 300px;
@@ -1582,6 +1596,13 @@ header .circle {
 @media (max-width: 560px) {
   .container {
     padding: 0 2rem;
+  }
+  .grid{
+  }
+  .grid-item {
+  }
+  .gallery-image{
+    height: 450px;
   }
 
   .title {
